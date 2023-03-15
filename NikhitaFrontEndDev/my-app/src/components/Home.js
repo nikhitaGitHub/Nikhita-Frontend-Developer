@@ -64,7 +64,7 @@ const Home = () => {
                 <Grid style={{'justifyContent': 'space-between', display:'flex', 'flex-direction':'row', flexWrap:'wrap'}}>
                     <Item pageNumber={page} filteredData={filteredData}></Item>
                 </Grid>
-                <Stack spacing={2} style={{alignContent: 'center',transform: 'translate(35%, 90%)', margin: '0 0 0 -50', paddingBottom:'5%'}}>
+                <Stack spacing={2} style={{alignContent: 'center',transform: 'translate(40%, 90%)', margin: '0 0 0 -50', paddingBottom:'5%'}}>
                 <Pagination 
                     count={Math.floor(filteredData?.length || 20/10) + 1}
                     onChange={((e, v) => {
